@@ -10,7 +10,7 @@ namespace bookme.pk
     {
         public static string userName;
         public static string userEmail;
-        public static int userContact;
+        public static long userContact;
         protected static string userPassword;
     }
 }

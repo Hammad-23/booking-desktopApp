@@ -9,3 +9,6 @@ D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.csproj.Co
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.exe
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.pdb
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.Form2.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.Home.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.FlightsScreen.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ProfileScreen.resources

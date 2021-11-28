@@ -25,7 +25,7 @@ namespace bookme.pk
         private void buttonRegister_Click(object sender, EventArgs e)
         {
             Auth authentication = new Auth();
-            int contactNo = Convert.ToInt32(textBoxContact.Text);
+            long contactNo = Convert.ToInt64(textBoxContact.Text);
             authentication.registration(textBoxName.Text, textBoxEmail.Text, contactNo, textBoxPassword.Text);
         }
 
