@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace bookme.pk
 {
-    class SubmitDetails:ProfileDetails
+    class SubmitDetails:User
     {
         public void details(string userAdress, string userContact, string userCity)
         {
@@ -14,6 +15,8 @@ namespace bookme.pk
             adress = userAdress;
             number = userNumber;
             city = userCity;
+            MessageBox.Show("Details Submit");
+            
         }
 
     }

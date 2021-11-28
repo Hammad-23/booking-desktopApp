@@ -12,3 +12,4 @@ D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.Form2.res
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.Home.resources
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.FlightsScreen.resources
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ProfileScreen.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ViewProfile.resources

@@ -12,5 +12,9 @@ namespace bookme.pk
         public static string userEmail;
         public static long userContact;
         protected static string userPassword;
+
+        public static string adress;
+        public static long number;
+        public static string city;
     }
 }

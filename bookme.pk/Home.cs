@@ -43,5 +43,12 @@ namespace bookme.pk
             ProfileScreen ps = new ProfileScreen();
             ps.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewProfile vp = new ViewProfile();
+            vp.Show();
+        }
     }
 }

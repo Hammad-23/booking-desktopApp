@@ -22,6 +22,7 @@ namespace bookme.pk
            
             SubmitDetails sd = new SubmitDetails();
             sd.details(richTextBoxAdress.Text, textBoxContact.Text, textBoxCity.Text);
+            
             this.Hide();
             Home home = new Home();
             home.Show();

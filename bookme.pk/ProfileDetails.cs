@@ -8,8 +8,6 @@ namespace bookme.pk
 {
     class ProfileDetails
     {
-        public static string adress;
-        public static long number;
-        public static string city;
+     
     }
 }

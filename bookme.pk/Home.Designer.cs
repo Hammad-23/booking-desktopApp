@@ -43,6 +43,7 @@ namespace bookme.pk
             this.label5 = new System.Windows.Forms.Label();
             this.buttonHotel = new System.Windows.Forms.Button();
             this.buttonProfile = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -185,11 +186,25 @@ namespace bookme.pk
             this.buttonProfile.UseVisualStyleBackColor = false;
             this.buttonProfile.Click += new System.EventHandler(this.buttonProfile_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Green;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(916, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(148, 42);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "View Profile";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1283, 622);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonProfile);
             this.Controls.Add(this.buttonHotel);
             this.Controls.Add(this.label5);
@@ -229,5 +244,6 @@ namespace bookme.pk
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button buttonHotel;
         private System.Windows.Forms.Button buttonProfile;
+        private System.Windows.Forms.Button button1;
     }
 }
