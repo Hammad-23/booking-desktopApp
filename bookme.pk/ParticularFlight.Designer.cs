@@ -48,9 +48,8 @@ namespace bookme.pk
             this.labelAirline.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.labelAirline.Location = new System.Drawing.Point(597, 56);
             this.labelAirline.Name = "labelAirline";
-            this.labelAirline.Size = new System.Drawing.Size(191, 46);
+            this.labelAirline.Size = new System.Drawing.Size(0, 46);
             this.labelAirline.TabIndex = 0;
-            this.labelAirline.Text = "AIR SIAL";
             // 
             // label1
             // 

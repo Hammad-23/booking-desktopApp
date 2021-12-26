@@ -20,7 +20,7 @@ namespace bookme.pk
 
         private void ParticularFlight_Load(object sender, EventArgs e)
         {
-            ShowBookingdetails showBokDet = new ShowBookingdetails(labelDeparture, labelDestination, labelPrice);
+            ShowBookingdetails showBokDet = new ShowBookingdetails(labelDeparture, labelDestination, labelPrice,labelAirline);
            
         }
 
@@ -32,6 +32,9 @@ namespace bookme.pk
             int qtytick = int.Parse(textBoxQty.Text);
             FlightsDetails.qty = qtytick;
             shbokdt.PriceCal();
+            this.Hide();
+            ThankyouScreen ts = new ThankyouScreen();
+            ts.Show();
 
 
             /*shbokdt.PriceCal(textBoxQty);*/

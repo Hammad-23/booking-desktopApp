@@ -55,6 +55,17 @@ namespace bookme.pk
                 if (selectedAirlines == FlightInformation.airlines[0] && selectedDeparture == FlightInformation.departure[0] && selectedDestination == FlightInformation.destination[0])
                 {
                     flightTicketPrice = FlightInformation.ticketPrice[0];
+                }else if(selectedAirlines == FlightInformation.airlines[1] && selectedDeparture == FlightInformation.departure[1] && selectedDestination == FlightInformation.destination[1])
+                {
+                    flightTicketPrice = FlightInformation.ticketPrice[1];
+                }
+                else if (selectedAirlines == FlightInformation.airlines[2] && selectedDeparture == FlightInformation.departure[2] && selectedDestination == FlightInformation.destination[2])
+                {
+                    flightTicketPrice = FlightInformation.ticketPrice[2];
+                }
+                else if (selectedAirlines == FlightInformation.airlines[3] && selectedDeparture == FlightInformation.departure[3] && selectedDestination == FlightInformation.destination[3])
+                {
+                    flightTicketPrice = FlightInformation.ticketPrice[3];
                 }
             }
 
