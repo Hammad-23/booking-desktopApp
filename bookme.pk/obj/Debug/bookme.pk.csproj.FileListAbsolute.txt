@@ -13,3 +13,6 @@ D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.Home.reso
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.FlightsScreen.resources
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ProfileScreen.resources
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ViewProfile.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ParticularFlight.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.HotelsView.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.BusView.resources

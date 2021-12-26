@@ -50,5 +50,19 @@ namespace bookme.pk
             ViewProfile vp = new ViewProfile();
             vp.Show();
         }
+
+        private void buttonHotel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HotelsView hv = new HotelsView();
+            hv.Show();
+        }
+
+        private void buttonBus_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BusView buv = new BusView();
+            buv.Show();
+        }
     }
 }

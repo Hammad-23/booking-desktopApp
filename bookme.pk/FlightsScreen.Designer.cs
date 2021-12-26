@@ -43,6 +43,7 @@ namespace bookme.pk
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.buttonCheck = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,6 +95,7 @@ namespace bookme.pk
             this.comboBoxDeparture.Name = "comboBoxDeparture";
             this.comboBoxDeparture.Size = new System.Drawing.Size(260, 33);
             this.comboBoxDeparture.TabIndex = 4;
+            this.comboBoxDeparture.SelectedIndexChanged += new System.EventHandler(this.comboBoxDeparture_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -113,6 +115,7 @@ namespace bookme.pk
             this.comboBoxArrival.Name = "comboBoxArrival";
             this.comboBoxArrival.Size = new System.Drawing.Size(260, 33);
             this.comboBoxArrival.TabIndex = 6;
+            this.comboBoxArrival.SelectedIndexChanged += new System.EventHandler(this.comboBoxArrival_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -132,6 +135,7 @@ namespace bookme.pk
             this.comboBoxClass.Name = "comboBoxClass";
             this.comboBoxClass.Size = new System.Drawing.Size(260, 33);
             this.comboBoxClass.TabIndex = 8;
+            this.comboBoxClass.SelectedIndexChanged += new System.EventHandler(this.comboBoxClass_SelectedIndexChanged);
             // 
             // radioButton1
             // 
@@ -168,6 +172,7 @@ namespace bookme.pk
             this.buttonCheck.TabIndex = 11;
             this.buttonCheck.Text = "Check Booking";
             this.buttonCheck.UseVisualStyleBackColor = false;
+            this.buttonCheck.Click += new System.EventHandler(this.buttonCheck_Click);
             // 
             // pictureBox1
             // 
@@ -179,11 +184,24 @@ namespace bookme.pk
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.buttonBack.ForeColor = System.Drawing.Color.White;
+            this.buttonBack.Location = new System.Drawing.Point(1151, 12);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(96, 37);
+            this.buttonBack.TabIndex = 13;
+            this.buttonBack.Text = "BACK";
+            this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // FlightsScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 613);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonCheck);
             this.Controls.Add(this.radioButton2);
@@ -221,5 +239,6 @@ namespace bookme.pk
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Button buttonCheck;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

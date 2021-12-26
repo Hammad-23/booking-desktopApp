@@ -11,7 +11,7 @@ namespace bookme.pk
     {
       
 
-        public void registration(string name, string email, long contact, string pass)
+        public void registration(string name, string email, long contact, string pass,Form frm1, Form frm2)
         {
             if (name == "" || email == "" || pass == "")
             {
@@ -24,10 +24,9 @@ namespace bookme.pk
                 userContact = contact;
                 userPassword = pass;
                 /* MessageBox.Show(userName + " " + userEmail);*/
-                Form2 f2 = new Form2();
-                Form1 f1 = new Form1();
-                f1.Close();
-                f2.Show();
+               
+                frm1.Hide();
+                frm2.Show();
 
             }
         }

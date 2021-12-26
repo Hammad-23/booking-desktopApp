@@ -141,6 +141,7 @@ namespace bookme.pk
             this.buttonBus.TabIndex = 8;
             this.buttonBus.Text = "BOOKME";
             this.buttonBus.UseVisualStyleBackColor = false;
+            this.buttonBus.Click += new System.EventHandler(this.buttonBus_Click);
             // 
             // pictureBox3
             // 
@@ -172,6 +173,7 @@ namespace bookme.pk
             this.buttonHotel.TabIndex = 11;
             this.buttonHotel.Text = "BOOKME";
             this.buttonHotel.UseVisualStyleBackColor = false;
+            this.buttonHotel.Click += new System.EventHandler(this.buttonHotel_Click);
             // 
             // buttonProfile
             // 

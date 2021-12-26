@@ -53,6 +53,14 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Auth.cs" />
+    <Compile Include="BookingConfirmation.cs" />
+    <Compile Include="BusView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusView.Designer.cs">
+      <DependentUpon>BusView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlightInformation.cs" />
     <Compile Include="FlightsDetails.cs" />
     <Compile Include="FlightsScreen.cs">
       <SubType>Form</SubType>
@@ -78,6 +86,19 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="HotelsScreen.cs" />
+    <Compile Include="HotelsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotelsView.Designer.cs">
+      <DependentUpon>HotelsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParticularFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticularFlight.Designer.cs">
+      <DependentUpon>ParticularFlight.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProfileDetails.cs" />
     <Compile Include="ProfileScreen.cs">
       <SubType>Form</SubType>
@@ -87,6 +108,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowBookingdetails.cs" />
     <Compile Include="SubmitDetails.cs" />
     <Compile Include="User.cs" />
     <Compile Include="ViewProfile.cs">
@@ -95,6 +117,9 @@
     <Compile Include="ViewProfile.Designer.cs">
       <DependentUpon>ViewProfile.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BusView.resx">
+      <DependentUpon>BusView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FlightsScreen.resx">
       <DependentUpon>FlightsScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelsView.resx">
+      <DependentUpon>HotelsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticularFlight.resx">
+      <DependentUpon>ParticularFlight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfileScreen.resx">
       <DependentUpon>ProfileScreen.cs</DependentUpon>
