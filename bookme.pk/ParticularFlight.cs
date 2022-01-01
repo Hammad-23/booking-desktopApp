@@ -32,10 +32,12 @@ namespace bookme.pk
             int qtytick = int.Parse(textBoxQty.Text);
             FlightsDetails.qty = qtytick;
             shbokdt.PriceCal();
+            PostOrder post = new PostOrder();
+            post.hitApi();
             this.Hide();
             ThankyouScreen ts = new ThankyouScreen();
             ts.Show();
-
+           
 
             /*shbokdt.PriceCal(textBoxQty);*/
            /* try

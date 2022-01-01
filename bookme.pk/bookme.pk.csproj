@@ -94,12 +94,20 @@
     <Compile Include="HotelsView.Designer.cs">
       <DependentUpon>HotelsView.cs</DependentUpon>
     </Compile>
+    <Compile Include="MiddleWare.cs" />
     <Compile Include="ParticularFlight.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ParticularFlight.Designer.cs">
       <DependentUpon>ParticularFlight.cs</DependentUpon>
     </Compile>
+    <Compile Include="ParticularHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticularHotel.Designer.cs">
+      <DependentUpon>ParticularHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostOrder.cs" />
     <Compile Include="ProfileDetails.cs" />
     <Compile Include="ProfileScreen.cs">
       <SubType>Form</SubType>
@@ -144,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ParticularFlight.resx">
       <DependentUpon>ParticularFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticularHotel.resx">
+      <DependentUpon>ParticularHotel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfileScreen.resx">
       <DependentUpon>ProfileScreen.cs</DependentUpon>

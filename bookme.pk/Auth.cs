@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace bookme.pk
 {
@@ -17,18 +18,39 @@ namespace bookme.pk
             {
                 MessageBox.Show("Fields required");
             }
-            else
+            else if (!string.IsNullOrWhiteSpace(email))
+            {
+                Regex reg = new Regex(@"\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*");
+                if (!reg.IsMatch(email))
+                {
+                
+                    MessageBox.Show("Email is not valid");
+                }
+                else
+                {
+                    userName = name;
+                    userEmail = email;
+                    userContact = contact;
+                    userPassword = pass;
+                
+
+                    frm1.Hide();
+                    frm2.Show();
+
+                }
+            }
+           /* else
             {
                 userName = name;
                 userEmail = email;
                 userContact = contact;
                 userPassword = pass;
-                /* MessageBox.Show(userName + " " + userEmail);*/
-               
+                MessageBox.Show(userName + " " + userEmail);
+
                 frm1.Hide();
                 frm2.Show();
 
-            }
+            }*/
         }
         public void login(string email,string password)
         {

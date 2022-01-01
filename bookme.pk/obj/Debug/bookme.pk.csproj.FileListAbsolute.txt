@@ -17,3 +17,4 @@ D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.Particula
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.HotelsView.resources
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.BusView.resources
 D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ThankyouScreen.resources
+D:\Object Oriented Programming\bookme.pk\bookme.pk\obj\Debug\bookme.pk.ParticularHotel.resources

@@ -25,5 +25,10 @@ namespace bookme.pk
             fd.dropdown(comboBoxRooms, FlightInformation.noOfRooms);
             fd.dropdown(comboBoxDays, FlightInformation.days);
         }
+
+        private void buttonCheckBooking_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -141,6 +141,7 @@ namespace bookme.pk
             this.buttonCheckBooking.TabIndex = 22;
             this.buttonCheckBooking.Text = "Check Booking";
             this.buttonCheckBooking.UseVisualStyleBackColor = false;
+            this.buttonCheckBooking.Click += new System.EventHandler(this.buttonCheckBooking_Click);
             // 
             // pictureBox3
             // 
